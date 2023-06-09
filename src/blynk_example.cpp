@@ -1,3 +1,9 @@
+/******************************************************/
+//       THIS IS A GENERATED FILE - DO NOT EDIT       //
+/******************************************************/
+
+#include "Particle.h"
+#line 1 "/Users/admin/Projects/blynk_example/src/blynk_example.ino"
 /*
  * Project blynk_example
  * Description: Example of using Blynk with the Particle Argon.
@@ -11,7 +17,13 @@
   Be sure to check out other examples!
  *************************************************************/
 
-// BLYNK_* environment variables are defined in src/env.h
+/* Fill-in information from Blynk Device Info here */
+void setup();
+void loop();
+#line 15 "/Users/admin/Projects/blynk_example/src/blynk_example.ino"
+#define BLYNK_TEMPLATE_ID "TMPL2wCM6kDSb"
+#define BLYNK_TEMPLATE_NAME "Blynk Example Template"
+// BLYNK_AUTH_TOKEN is loaded from "src/env.h"
 
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
